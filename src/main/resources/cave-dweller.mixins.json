@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.alessandrv.cave_dweller.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"MixinGroundPathNavigation",
+		"MixinLivingEntity",
+		"MixingServerWorld"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
